@@ -45,3 +45,4 @@ deploy:
   on:
     tags: true
     branch: master
+    condition: "($PYTHON = 3.4) && ($ROOT = 6.04)"
